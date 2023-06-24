@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Shrikhand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shrikhand', cursive;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    box-shadow: 0 1px 3px rgb(0, 0, 0 / 100%), 0 2px 2px rgb(0, 0, 0 / 65%), 0 0 2px rgb(0, 0, 0 / 7%);
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.nav-left {
+    display: flex;
+}
+.nav-left img {
+    height: 100px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li {
+    margin-left: 20px;
+}
+
+.nav-left ul li a {
+    text-decoration: uppercase;
+    color: #181a18;
+}
+
+.nav-left ul li a:hover {
+    color: #007754;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right .location {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-right .location:hover {
+    color: #007754;
+}
+
+.nav-right .location:span {
+    margin-left: 10px;
+}
+
+.location img {
+    height: 20px;
+}
+
+.nav-right button {
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 6.4px 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.btn-primary {
+    border: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.86);
+}
+
+.btn-secondary {
+    background-color: #181a18;
+    color: #fff;
+}
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+.box {
+    margin-top: 32px;
+}
+
+.box .container {
+    display: flex;
+}
+
+.box-text {
+    width: 50%;
+    padding: 32px 80px;
+    background-color: #1e3932;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text h1 {
+    font-size: 50px;
+}
+
+.box-text p {
+    margin-top: 60px;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.box-img {
+    width: 50%;
+}
+
+.box-img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.lg {
+    font-size: 36px !important;
+}
+
+.p-lg {
+    font-size: 16px !important;
+}
+
+.mb-0 {
+    margin-top: 0 !important;
+}
+
+.mb-1 {
+    margin-top: 0 !important;
+}
+
+.box-secondary .container {
+    flex-direction: row-reverse;
+}
+
+.box-light {
+    background-color: #d4e9e2;
+    color: #181a18;
+}
+
+.box-light h1 {
+    font-weight: normal;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
